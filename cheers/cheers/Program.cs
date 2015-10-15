@@ -14,10 +14,10 @@ namespace cheers
             string name = System.Console.ReadLine();
             System.Console.WriteLine("Hi, " + name);
 
-            foreach (char letter in name)
+            foreach (char letter in name.ToLower())
             {
                string article = "a";
-                 foreach (char vowelSound in "halfnorsemixHALFNORSMIX")
+                 foreach (char vowelSound in "halfnorsemix")
                  {
                  if (letter == vowelSound)
                        {
